@@ -58,11 +58,12 @@ const Homepage = () => {
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
-		top: stayLogo ? "3vh" : "auto",
+		top: stayLogo ? "2vh" : "auto",
 		zIndex: 999,
 		border: stayLogo ? "1px solid white" : "none",
 		borderRadius: stayLogo ? "50%" : "none",
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
+		marginTop: stayLogo ? "8vh" : "0%"
 	};
 
 	return (

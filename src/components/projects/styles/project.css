@@ -89,23 +89,22 @@
 }
 @media (max-width: 768px) {
   .project-card {
-    height: 250px; /* Slightly reduced height for mobile */
+    height: 250px;
     margin-bottom: 1.5rem;
-    width: 100%; /* Ensure full width */
-    max-width: 100%; /* Prevent overflow */
+    width: 100%; 
+    max-width: 100%; 
   }
 
-  /* If cards are in a grid container */
   .projects-container {
-    padding: 0 1rem; /* Reasonable side padding */
-    gap: 1rem; /* Reduced gap between cards */
+    padding: 0 1rem;
+    gap: 1rem; 
   }
 
   .project-details {
-    padding: 1rem; /* Slightly reduced padding on mobile */
+    padding: 1rem;
   }
 
   .project-title-overlay {
-    padding: 0.75rem; /* Tighter padding on mobile */
+    padding: 0.75rem; 
   }
 }
