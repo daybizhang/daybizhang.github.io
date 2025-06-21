@@ -20,7 +20,7 @@
 }
 
 .work-title {
-	font-size: 15px;
+	font-size: 1rem;
 	font-weight: 700;
 	padding-left: 2rem;
 	margin-top: 0rem;
@@ -30,18 +30,19 @@
 
 .work-subtitle {
 	position: relative;
-	font-size: 12px;
+	font-size: 0.8rem;
 	color: var(--secondary-color);
 	padding-top: 0rem;
 	padding-left: 1rem;
 	width: 100%;
+	text-align: right;
 }
 
 .work-duration {
 	position: relative;
 	right: 0;
-	width: 350px;
-	font-size: 12px;
+	width: 40%;
+	font-size: 0.8rem;
 	padding-top: 0rem;
 	text-align: right;
 	color: var(--tertiary-color);

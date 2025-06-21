@@ -65,9 +65,6 @@
 	color: var(--primary-color);
 }
 
-.homepage-after-title {
-	display: flex;
-}
 
 .homepage-projects {
 	flex-basis: 300px;
@@ -75,19 +72,29 @@
 	justify-content: center;
 }
 
-.homepage-articles {
-	flex-basis: 900px;
-	padding-top: 30px;
-	margin-left: -30px;
+/* .homepage-after-title {
+	display: flex;
 }
 
-.homepage-article {
-	padding-bottom: 5px;
-}
 
 .homepage-works {
 	flex-basis: 600px;
 	padding-top: 30px;
+} */
+/* Center the works section container */
+.homepage-after-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+/* Center the works card itself */
+.homepage-works {
+  width: 100%;
+  max-width: 1200px; /* Adjust this based on your desired max width */
+  margin: 0 auto;
+  padding: 0 1rem; /* Prevents content from touching edges on mobile */
 }
 
 @media (max-width: 1024px) {
@@ -113,7 +120,7 @@
 
 	.homepage-title {
 		width: 100% !important;
-		margin-top: 20px;
+		margin-top: 0;
 		order: 2;
 	}
 
@@ -130,9 +137,11 @@
 
 	.homepage-image-container {
 		width: 80%;
+		height: auto;
 		margin: 0 auto; 
 		display: flex; 
 		justify-content: center;
+		padding-top: 6vh;
 	}
 
 	.homepage-after-title {

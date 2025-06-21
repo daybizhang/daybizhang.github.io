@@ -7,10 +7,9 @@ const INFO = {
 	},
 
 	socials: {
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
+		github: "https://github.com/daybizhang",
+		linkedin: "https://www.linkedin.com/in/david-zhang-37a8a7217/",
+		instagram: "https://instagram.com/davidz_zhang",
 	},
 
 	homepage: {
