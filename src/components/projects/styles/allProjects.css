@@ -2,15 +2,10 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-left: -35px;
-	margin-right: -35px;
-	justify-items: center;
 }
 
 .all-projects-project {
-  width: calc((100% / 3) - 2%); /* Account for margins */
+  width: 50%; /* Account for margins */
 	box-sizing: border-box;
 	padding: 10px;
 	overflow: hidden;
@@ -18,20 +13,15 @@
 
 @media (max-width: 900px) {
   .all-projects-project {
-    width: calc(50% - 20px); /* Two columns */
+    width: calc(50%); /* Two columns */
   }
 }
 
 @media (max-width: 600px) {
-  .all-projects-container {
-    margin: 0 0.25rem;
-    padding: 20px 0;
-  }
-
   .all-projects-project {
-    width: calc(98%);
-    margin: 0 10px 15px;
-    padding-left: 0; 
-    margin-right: 0; 
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
   }
 }

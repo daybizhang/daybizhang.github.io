@@ -5,11 +5,13 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
+import ScrollLogo from '../components/ScrollLogo';
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/projects.css";
+import "./styles/common.css";
 
 const Projects = () => {
 	useEffect(() => {
@@ -32,10 +34,12 @@ const Projects = () => {
 			<div className="page-content">
 				<NavBar active="projects" />
 				<div className="content-wrapper">
-					<div className="projects-logo-container">
-						<div className="projects-logo">
-							<Logo width={46} />
-						</div>
+					<div className="floating-logo-container">
+						<ScrollLogo 
+						initialSize={80} 
+						minSize={40}
+						seoData={currentSEO}
+						/>
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">

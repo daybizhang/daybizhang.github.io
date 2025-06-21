@@ -1,14 +1,8 @@
 @import "../../data/styles.css";
 
-.homepage-logo-container {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	padding-top: 130px;
-}
 
 .homepage-container {
-	padding-top: 25px;
+	padding-top: 8vh;
 }
 
 .homepage-first-area {
@@ -78,6 +72,7 @@
 .homepage-projects {
 	flex-basis: 300px;
 	padding-top: 40px;
+	justify-content: center;
 }
 
 .homepage-articles {
@@ -96,13 +91,21 @@
 }
 
 @media (max-width: 1024px) {
+	.homepage-logo-container {
+		display: flex;
+		justify-content: right;
+		right: 1rem;
+		align-items: center;
+		padding-top: 15vh;
+		position: absolute;
+	}
 	.homepage-first-area {
 		flex-direction: column;
 	}
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column;
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
@@ -126,10 +129,10 @@
 	}
 
 	.homepage-image-container {
-		padding-top: 50px;
-		padding-bottom: 50px;
-		margin-left: 10px;
-		order: 1;
+		width: 80%;
+		margin: 0 auto; 
+		display: flex; 
+		justify-content: center;
 	}
 
 	.homepage-after-title {
