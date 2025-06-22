@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
-	const { active } = props;
+	const { active, showBackButton } = props;
 
 	return (
 		<React.Fragment>
@@ -51,6 +53,13 @@ const NavBar = (props) => {
 						</ul>
 					</div>
 				</nav>
+				{showBackButton && (
+					<div className="nav-back-section">
+						<Link to="/projects" className="nav-back-link">
+							<FontAwesomeIcon icon={faArrowLeft} /> Back to Projects
+						</Link>
+					</div>
+				)}
 			</div>
 		</React.Fragment>
 	);

@@ -6,13 +6,16 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "./styles/project.css";
 
 const Project = (props) => {
-  const { logo, title, description, linkText, link } = props;
+  const { projectImage, title, description } = props;
+
+  // Create URL-friendly project ID from title
+  const projectId = title.toLowerCase().replace(/\s+/g, '-');
 
   return (
     <div className="project-card">
-      <Link to={link} className="project-link-wrapper">
+      <Link to={`/project/${projectId}`} className="project-link-wrapper">
         <div className="project-image-container">
-          <img src={logo} alt={title} className="project-image" />
+          <img src={projectImage} alt={title} className="project-image" />
           <h3 className="project-title-overlay">{title}</h3>
         </div>
         
@@ -20,7 +23,7 @@ const Project = (props) => {
           <p className="project-description">{description}</p>
           <div className="project-link">
             <FontAwesomeIcon icon={faLink} className="link-icon" />
-            <span className="link-text">{linkText}</span>
+            <span className="link-text">View Details</span>
           </div>
         </div>
       </Link>

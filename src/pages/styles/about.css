@@ -64,11 +64,15 @@
 
 	.about-subtitle {
 		padding-top: 20px !important;
+		width: 100% !important;
 	}
 
 	.about-left-side {
 		flex-basis: 100%;
 		order: 1;
+		align-items: center;
+		margin-left: 0;
+		padding-right: 0;
 	}
 
 	.about-right-side {
@@ -83,7 +87,6 @@
 		justify-content: center;
 	}
 
-
 	.about-socials {
 		display: none;
 	}
@@ -95,6 +98,10 @@
 }
 
 @media (max-width: 600px) {
+	.about-left-side {
+		align-items: center; /* Ensure centering on smaller screens */
+	}
+
 	.about-image-container {
 		width: 80%;
 		margin: 0 auto; 

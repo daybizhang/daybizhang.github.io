@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./rivian.png"
+								src="./work_logos/rivian.png"
 								alt="facebook"
 								className="work-image"
 							/>
@@ -28,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./cmu_ri.png"
+								src="./work_logos/cmu_ri.png"
 								alt="cmu_robotics_institute"
 								className="work-image"
 							/>
@@ -41,7 +41,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./alstom.jpg"
+								src="./work_logos/alstom.jpg"
 								alt="alstom"
 								className="work-image"
 							/>
@@ -54,7 +54,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./tsinghua.png"
+								src="./work_logos/tsinghua.png"
 								alt="tsinghua"
 								className="work-image"
 							/>

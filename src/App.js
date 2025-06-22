@@ -5,6 +5,7 @@ import ReactGA from "react-ga4";
 import Homepage from "./pages/homepage";
 import About from "./pages/about";
 import Projects from "./pages/projects";
+import ProjectDetails from "./pages/projectDetails";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 
@@ -24,6 +25,7 @@ function App() {
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
+				<Route path="/project/:projectId" element={<ProjectDetails />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>

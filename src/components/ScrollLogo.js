@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import INFO from '../data/user';
 
 const ScrollLogo = ({ initialSize = 80, minSize = 40, seoData }) => {
   const [stayLogo, setStayLogo] = useState(false);
@@ -58,7 +59,7 @@ const ScrollLogo = ({ initialSize = 80, minSize = 40, seoData }) => {
   return (
     <div style={logoStyle}>
       <img 
-        src={seoData?.logo || 'logo.png'} 
+        src={INFO.main.logo} 
         alt={seoData?.title || 'Logo'}
         style={imageStyle}
       />
