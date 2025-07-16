@@ -33,7 +33,7 @@ const INFO = {
 			fullDescription: "CAVEMAN (Cave Autonomous Vehicle for Exploration, Mapping, and Navigation) is a comprehensive robotics project that combines autonomous navigation, mapping, and exploration capabilities. The system is designed to operate in challenging cave environments where GPS signals are unavailable and traditional  navigation methods fail. The CAVEMAN is designed to take humans out of risk in high-volatility and risky, unknown environments.",
 			projectImage: "project_media/CAVEMAN/CAVEMAN.jpg",
 			technologies: ["ROS", "Python", "C++", "SLAM", "Computer Vision", "Arduino"],
-			images: ["project_media/CAVEMAN/CAVEMAN.jpg", "project_media/CAVEMAN/frank.mov", "project_media/CAVEMAN/CAVEMAN_auto.mp4", "project_media/CAVEMAN/team.jpg",],
+			images: ["project_media/CAVEMAN/CAVEMAN.jpg", "project_media/CAVEMAN/frank.mov", "project_media/CAVEMAN/CAVEMAN_auto.mov", "project_media/CAVEMAN/team.jpg",],
 			details: {
 				role: "Lead Developer",
 				duration: "4 months",
@@ -50,7 +50,6 @@ const INFO = {
 				]
 			},
 			github: "https://github.com/CAVEMaN-SeniorDesign",
-			demo: "https://youtube.com/watch?v=example"
 		},
 
 		{
